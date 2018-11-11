@@ -1,4 +1,12 @@
 instructions text
+#view status
+git status
+
+#ready items commit
+git add .
+
+#commit new items to github
+git commit -m "some notes"
 
 #check associated remote github repository
 git remote -v
