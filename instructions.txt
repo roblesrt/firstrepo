@@ -1,1 +1,12 @@
 instructions text
+
+#check associated remote github repository
+git remote -v
+
+#link local repository with github repository
+git remote add origin https://github.com/roblesrt/firstrepo.git
+
+#put local copy to github
+git push -u origin master
+
+#sample text
